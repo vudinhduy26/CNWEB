@@ -1,0 +1,23 @@
+form {
+  border: 3px solid #f4f1f1;
+  background-color: white;
+;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+  cursor: pointer;
+  text-align: center;
+  width: 40rem;
+  background-color: #30c14d70;
+}
+
+body {
+  background-image: url(../assets/img/dcs.png);
+  background: rgba(0, 0, 0, 0.233);
+}
+
+.container {
+  width: 500px;
+}
