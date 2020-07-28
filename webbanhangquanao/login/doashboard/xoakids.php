@@ -7,8 +7,12 @@ $idsanphamkid = $_POST['idsanphamkid'];
 $sql1 = "SELECT * FROM sanphamkids WHERE Idsanphamkid = $idsanphamkid";
 $data1 = select_one($sql1);
 if (isset($data1['Idsanphamkid'])) {
+    $sql3 = "DELETE FROM kichthuockids WHERE Idsanphamkid = $idsanphamkid";
+    $sql2 = "DELETE FROM mausackids WHERE Idsanphamkid = $idsanphamkid";
     $sql = "DELETE FROM sanphamkids WHERE Idsanphamkid = $idsanphamkid";
      //print_r($sql);exit();
+    $data3 = mysqli_query($conn,$sql3);
+    $data2 = mysqli_query($conn,$sql2);
     $data = mysqli_query($conn,$sql);
     //print_r($data);exit();
     //

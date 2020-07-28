@@ -278,10 +278,10 @@ $data1 = select_list($sql1);
                                 <button onclick="myFunction()">Mua Hàng</button>
 
                                 <div id="myDIV"
-                                style="  width: 50%;padding: 30px 0;text-align: center;background-color: #fffff;margin-top: 20px;border: 1px solid #ff8c00;">
+                                style="  width: 50%;padding: 30px 0;text-align: center;background-color: #fffff;margin-top: 20px;border: 1px solid #ff8c00; display : none;">
                                 <h6>PHIẾU ĐẶT HÀNG</h6>
                                 <form style='font-size : 11px' action="xulymuahang.php" method="get">
-                                <label for="">Tên SP : <input type="text" name='tensp' required><br></label>
+                                <label for="">Tên SP : <input type="text" value='<?php echo $data['Tensanphamkids']?>' name='tensp' required><br></label>
                                 <label for="">Số Lượng : <input type="text" name='soluong' required><br></label>
                                 <label for="">Tên Người Mua : <input type="text" name='tennguoimua' required><br></label>
                                 <label for="">Số ĐT : <input type="text" name='sodienthoai' required><br></label>

@@ -149,3 +149,7 @@ function upload_file_by_name($name, $target_dir=""){
 	}
 	return "";
    }
+
+   function phpAlert($msg){
+	echo '<script type="text/javascript">alert("'.$msg.'")<script>';
+}

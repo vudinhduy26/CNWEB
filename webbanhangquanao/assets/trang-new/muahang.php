@@ -25,6 +25,7 @@ $data1 = select_list($sql1);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css?h=a87a985d6fa0c6b2264ed3b6e4fc35bb">
     <link rel="stylesheet" href="assets/css/css.css">
+    <link rel="stylesheet" href="assets/css/new.css">
 
 </head>
 
@@ -282,10 +283,10 @@ $data1 = select_list($sql1);
                             <button onclick="myFunction()">Mua Hàng</button>
 
                             <div id="myDIV"
-                                style="  width: 50%;padding: 30px 0;text-align: center;background-color: #fffff;margin-top: 20px;border: 1px solid #ff8c00;">
+                                style="width: 50%;padding: 30px 0;text-align: center;background-color: #fffff;margin-top: 20px;border: 1px solid black; display : none;box-shadow: 1px 1px 3px 3px gray;">
                                 <h6>PHIẾU ĐẶT HÀNG</h6>
                                 <form style='font-size : 11px' action="xulymuahang.php" method="get">
-                                <label for="">Tên SP : <input type="text" name='tensp' required><br></label>
+                                <label for="">Tên SP : <input type="text" value='<?php echo $data['Tensanphamnam']?>' name='tensp' required><br></label>
                                 <label for="">Số Lượng : <input type="text" name='soluong' required><br></label>
                                 <label for="">Tên Người Mua : <input type="text" name='tennguoimua' required><br></label>
                                 <label for="">Số ĐT : <input type="text" name='sodienthoai' required><br></label>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2020 at 06:51 AM
+-- Generation Time: Jul 28, 2020 at 02:57 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.7
 
@@ -79,7 +79,8 @@ CREATE TABLE `donhang` (
 
 INSERT INTO `donhang` (`id`, `Tensanpham`, `Soluong`, `Tennguoimua`, `Sodt`, `Diachi`) VALUES
 (20, 'ASM-KD 03', 2, 'Duy', 368817989, 'ND'),
-(21, 'QUẦN BÉ GÁI QDG19301', 2, 'Duy', 368817989, 'ND');
+(21, 'QUẦN BÉ GÁI QDG19301', 2, 'Duy', 368817989, 'ND'),
+(22, 'ÁO NỈ BÉ TRAI ANT393004', 2, 'Duy', 368817989, 'ND');
 
 -- --------------------------------------------------------
 
@@ -114,11 +115,7 @@ INSERT INTO `kichthuockids` (`Idsanphamkid`, `Kichthuocsanpham`) VALUES
 (3, '12'),
 (3, '13'),
 (3, '14'),
-(3, '15'),
-(4, '15'),
-(4, '16'),
-(4, '17'),
-(4, '18');
+(3, '15');
 
 -- --------------------------------------------------------
 
@@ -172,11 +169,7 @@ INSERT INTO `mausackids` (`Idsanphamkid`, `Mausacsanpham`) VALUES
 (2, 'hong'),
 (3, 'trang'),
 (3, 'do'),
-(3, 'den'),
-(4, 'den'),
-(4, 'do'),
-(4, 'xang'),
-(4, 'nau');
+(3, 'den');
 
 -- --------------------------------------------------------
 
@@ -234,7 +227,7 @@ INSERT INTO `sanphamkids` (`Idsanphamkid`, `Tensanphamkids`, `Img1`, `Img2`, `Ti
 (1, 'QUẦN BÉ GÁI QDG19301', 'https://360boutique.vn/wp-content/uploads/2019/11/QDG19301-480x635.jpg', 'https://360boutique.vn/wp-content/uploads/2019/11/QDG19301-480x635.jpg', 'QUẦN BÉ GÁI QDG19301', '– Chất liệu: cao cấp\r\n– Màu sắc: nâu\r\n– Size: 90 – 100 – 110 – 120 – 130 – 140\r\n– Sản phẩm đã có mặt ở toàn bộ các cửa hàng trên hệ thống và Shopee.', 230000, 'vay', 'benu', NULL),
 (2, 'QUẦN BÉ GÁI QDG19031', 'https://360boutique.vn/wp-content/uploads/2019/11/QDG19031-1-480x635.jpg', 'https://360boutique.vn/wp-content/uploads/2019/11/QDG19031-2-480x635.jpg', 'QUẦN BÉ GÁI QDG19031', '– Chất liệu: cao cấp\r\n– Màu sắc: Hồng\r\n– Size: 90 – 100 – 110 – 120 – 130 – 140\r\n– Sản phẩm đã có mặt ở toàn bộ các cửa hàng trên hệ thống và Shopee.', 250000, 'vay', 'benu', NULL),
 (3, 'ÁO NỈ BÉ TRAI ANT393004', 'https://360boutique.vn/wp-content/uploads/2019/11/ANT393004-1-480x635.jpg', 'https://360boutique.vn/wp-content/uploads/2019/11/ANT393004-2-480x635.jpg', 'ÁO NỈ BÉ TRAI ANT393004', '– Vải cao cấp, khả năng thấm hút mồ hôi cực tốt\r\n– Màu sắc: nâu\r\n– size: 90 – 100 – 110 – 120 – 130 – 140\r\n– Sản phẩm đã có mặt ở toàn bộ các cửa hàng trên hệ thống và Shopee.', 230000, 'aoni', 'benam', NULL),
-(4, 'ÁO NỈ BÉ TRAI ANT8232', 'https://360boutique.vn/wp-content/uploads/2019/11/ANT8232-1-480x635.jpg', 'https://360boutique.vn/wp-content/uploads/2019/11/ANT8232-2-480x635.jpg', 'ÁO NỈ BÉ TRAI ANT8232', '– Vải cao cấp, khả năng thấm hút mồ hôi cực tốt\r\n– Màu sắc: be\r\n– size: 90 – 100 – 110 – 120 – 130 – 140\r\n– Sản phẩm đã có mặt ở toàn bộ các cửa hàng trên hệ thống và Shopee.', 230000, 'aoni', 'benam', '');
+(6, 'ÁO NỈ BÉ TRAI ANT8230', 'http://localhost/TT/webbanhangquanao/login/doashboard/uploads/ANT8230-1-480x635-20200728-013703.jpg', 'http://localhost/TT/webbanhangquanao/login/doashboard/uploads/ANT8230-2-480x635-20200728-013703.jpg', 'ÁO NỈ BÉ TRAI ANT8230', 'ÁO NỈ BÉ TRAI ANT8230', 320000, 'aoni', NULL, 'ok');
 
 -- --------------------------------------------------------
 
@@ -262,7 +255,8 @@ INSERT INTO `sanphamnam` (`Idsanphamnam`, `Tensanphamnam`, `Img1`, `Img2`, `Tieu
 (1, 'ÁO SƠ MI NAM SMNTK123', 'https://360boutique.vn/wp-content/uploads/2020/07/DSC_9671-480x635.jpg', 'https://360boutique.vn/wp-content/uploads/2020/07/DSC_9671-480x635.jpg', 'ÁO SƠ MI NAM SMNTK123', '– Vải cao cấp, khả năng thấm hút mồ hôi cực tốt\r\n– Màu sắc: xanh navy\r\n– Có đầy đủ các size: M – L – XL – XXL\r\n– Sản phẩm đã có mặt ở toàn bộ các cửa hàng trên hệ thống', 99000, 'ao', NULL),
 (2, 'QUẦN SHORT NAM QSVTK002', 'https://360boutique.vn/wp-content/uploads/2020/07/DSC_9200-480x635.jpg', 'https://360boutique.vn/wp-content/uploads/2020/07/DSC_9199-480x635.jpg', 'QUẦN SHORT NAM QSVTK002', '– Chất liệu: Vải cao cấp\r\n– Đặc tính: Mềm mại, co giãn tốt, có độ thấm hút mồ hôi và hút ẩm cao, thoáng mát.\r\n– Màu sắc:  xanh da trời, be\r\n– Kiểu dáng: Ống Suông\r\n– Size: 29 – 32', 99000, 'quan', 'ok'),
 (3, 'ÁO SƠ MI NAM SMNTK016', 'https://360boutique.vn/wp-content/uploads/2020/07/SMNTK016-1-480x635.jpg', 'https://360boutique.vn/wp-content/uploads/2020/07/SMNTK016-1-480x635.jpg', 'ÁO SƠ MI NAM SMNTK016', '– Vải cao cấp, khả năng thấm hút mồ hôi cực tốt\r\n– Màu sắc: xanh lá\r\n– Có đầy đủ các size: M – L – XL – XXL\r\n– Sản phẩm đã có mặt ở toàn bộ các cửa hàng trên hệ thống', 250000, 'ao', NULL),
-(32, 'ASM-KD 03', 'http://localhost/TT/webbanhangquanao/login/doashboard/uploads/SMNTK013-1-20200723-083731.jpg', 'http://localhost/TT/webbanhangquanao/login/doashboard/uploads/SMNTK013-1-20200723-083731.jpg', 'ASM-KD 03', 'Áo Đẹp', 300000, 'ao', NULL);
+(32, 'ASM-KD 03', 'http://localhost/TT/webbanhangquanao/login/doashboard/uploads/SMNTK013-1-20200723-083731.jpg', 'http://localhost/TT/webbanhangquanao/login/doashboard/uploads/SMNTK013-1-20200723-083731.jpg', 'ASM-KD 03', 'Áo Đẹp', 300000, 'ao', NULL),
+(40, 'ÁO PHÔNG NAM APHCTK035', 'http://localhost/TT/webbanhangquanao/login/doashboard/uploads/APHTK035-1-480x635-20200728-012204.jpg', 'http://localhost/TT/webbanhangquanao/login/doashboard/uploads/APHTK035-5-480x635-20200728-012204.jpg', 'ÁO PHÔNG NAM APHCTK035', 'Oke', 220000, 'ao', NULL);
 
 -- --------------------------------------------------------
 
@@ -353,19 +347,19 @@ ALTER TABLE `tinmoi`
 -- AUTO_INCREMENT for table `donhang`
 --
 ALTER TABLE `donhang`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `sanphamkids`
 --
 ALTER TABLE `sanphamkids`
-  MODIFY `Idsanphamkid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `Idsanphamkid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `sanphamnam`
 --
 ALTER TABLE `sanphamnam`
-  MODIFY `Idsanphamnam` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `Idsanphamnam` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT for table `tinmoi`

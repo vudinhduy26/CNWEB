@@ -15,3 +15,7 @@
 24.07.2020 06:15:35 sql=[SELECT * from sanphamkids where gioitinhkids = 'benam'] 
 24.07.2020 06:22:59 sql=[SELECT * from sanphamkids where gioitinhkids = 'benu'] 
 24.07.2020 06:34:05 sql=[SELECT * from sanphamkids where gioitinhkids = 'benu'] 
+27.07.2020 04:30:09 sql=[SELECT * from sanphamkids where gioitinhkids = 'benam'] 
+27.07.2020 04:30:17 sql=[SELECT * from sanphamkids where gioitinhkids = 'benu'] 
+27.07.2020 04:48:13 sql=[SELECT * from sanphamkids where gioitinhkids = 'benam'] 
+28.07.2020 01:23:47 sql=[SELECT * from sanphamkids where gioitinhkids = 'benam'] 
