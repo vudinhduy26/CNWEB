@@ -302,3 +302,4 @@
 28.07.2020 01:55:19 sql=[SELECT Idsanphamkid , Tensanphamkids , Giasanphamkids from sanphamkids] 
 28.07.2020 02:43:39 sql=[SELECT Idsanphamnam , Tensanphamnam , Giasanphamnam from sanphamnam] 
 28.07.2020 02:44:57 sql=[SELECT loaisanphamnam FROM sanphamnam ] 
+30.07.2020 06:50:25 sql=[SELECT Idsanphamnam , Tensanphamnam , Giasanphamnam from sanphamnam] 

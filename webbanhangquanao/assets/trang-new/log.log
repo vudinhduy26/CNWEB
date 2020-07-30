@@ -1246,3 +1246,20 @@ ORDER BY Idsanphamnam desc limit 3]
 ORDER BY Idsanphamkid desc limit 3] 
 28.07.2020 02:28:23 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
 28.07.2020 02:28:23 COUNT=[0] 
+28.07.2020 03:33:10 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+28.07.2020 03:33:10 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+28.07.2020 03:33:11 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+28.07.2020 03:33:11 COUNT=[0] 
+28.07.2020 03:33:13 sql=[SELECT * FROM sanphamnam where sale = 'ok'] 
+28.07.2020 03:33:18 sql=[SELECT * FROM sanphamnam where Idsanphamnam = '2'] 
+28.07.2020 03:33:18 sql=[SELECT * FROM sanphamnam ORDER BY Idsanphamnam DESC limit 4] 
+30.07.2020 04:34:53 sql=[SELECT * FROM sanphamnam where Idsanphamnam = '3'] 
+30.07.2020 04:34:53 sql=[SELECT * FROM sanphamnam ORDER BY Idsanphamnam DESC limit 4] 
+30.07.2020 04:35:25 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+30.07.2020 04:35:25 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+30.07.2020 04:35:25 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+30.07.2020 04:35:25 COUNT=[0] 

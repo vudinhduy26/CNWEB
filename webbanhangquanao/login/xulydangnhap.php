@@ -25,8 +25,6 @@
          header("location: doashboard/index.php");
       }else{
          header("location: index.php");
-         $msg = 'Tài khoản hoặc mật khẩu không chính xác !!!';
-         echo "<script type='text/javascript'>alert('$msg')</script>";
       }
    }
 ?>

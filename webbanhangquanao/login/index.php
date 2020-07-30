@@ -34,15 +34,15 @@ session_start();
             </div>
             <div class="login-box-seperator"></div>
         </div>
-        <form action="xulydangnhap.php" method="post">
+        <form action="xulydangnhap.php" id="login" method="post">
             <div class="email-login" style="background-color:#ffffff;">
-                <input type="text" name="username" required class="email-imput form-control" style="margin-top:10px;"
+                <input type="text" id="user" name="username" required class="email-imput form-control" style="margin-top:10px;"
                     placeholder="username" >
                 <input type="password" class="password-input form-control" style="margin-top:10px;" name="password"
-                    placeholder="Password" required>
+                    placeholder="Password" id="pass" required>
             </div>
-            <div class="submit-row" style="margin-bottom:8px;padding-top:0px;"><button
-                    class="btn btn-primary btn-block box-shadow" id="submit-id-submit" type="submit">Login</button>
+            <div class="submit-row" style="margin-bottom:8px;padding-top:0px;">
+            <button class="btn btn-primary btn-block box-shadow" id="submit-id-submit" type="submit" value="Login">Login</button>
                 <div class="d-flex justify-content-between">
                     <div class="form-check form-check-inline" id="form-check-rememberMe"><input class="form-check-input"
                             type="checkbox" id="formCheck-1" for="remember" style="cursor:pointer;" name="check"><label
@@ -59,6 +59,37 @@ session_start();
     <!-- End: Login Box [En] -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="doashboard/assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+         $('#submit-id-submit').click(function(){
+             if ($("#user").val() == "") {
+                alert('Bạn Chưa nhập Tài Khoản');
+                return false;
+             }
+             if ($("#pass").val() == "") {
+                alert('Bạn Chưa nhập Mật Khẩu');
+                return false;
+             }
+             $.ajax({
+                 type: 'POST',
+                 url: 'xulydangnhap.php',
+                 data: {
+                     username: $("#user").val(),
+                     password:$("#pass").val()
+                 },
+                 success:function(data){
+                     if (data != 1) {
+                        alert('Tài khoản hoặc mật khẩu của bạn không chính xác !!!');
+
+                     } else {
+                        window.location = 'doashboard';
+                     }
+                 }
+             });
+         });
+     });
+    </script>
 </body>
 
 </html>
