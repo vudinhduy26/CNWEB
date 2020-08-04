@@ -26,18 +26,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css?h=ebd6f95904009a297a139802d395213f">
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="height: 100px;">
-        <div class="container"><a class="navbar-brand logo" href="#" style="font-size: 20px;"><img style="width: 50px;height: 30px;" src="assets/img/admin-ajax-1.png?h=f280691f98342c30ee282393775d656a"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1" style="background-color: #ffffff;">
-                <ul class="nav navbar-nav mx-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.php" style="font-size: 11px;">TRANG CHỦ</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="assets/trang-new/new.php" style="color: rgb(0,0,0);font-size: 11px;">NEW</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="assets/trang-new/sale.php" style="color: rgb(0,0,0);font-size: 11px;">SALE</a></li>
-                    <li class="nav-item" role="presentation"><style>
+    <style>
     .dropdown-toggle::after{
         content: none;}
     a{
@@ -53,6 +42,18 @@
         border-radius: 50%;
     }
 </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="height: 90px;">
+        <div class="container"><a class="navbar-brand logo" href="#" style="font-size: 20px;"><img style="width: 50px;height: 30px;" src="assets/img/admin-ajax-1.png?h=f280691f98342c30ee282393775d656a"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1" style="background-color: #ffffff;">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.php" style="font-size: 11px;">TRANG CHỦ</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="assets/trang-new/new.php" style="color: rgb(0,0,0);font-size: 11px;">NEW</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="assets/trang-new/sale.php" style="color: rgb(0,0,0);font-size: 11px;">SALE</a></li>
+                    <li class="nav-item" role="presentation">
 <div class="nav-item dropdown" id="1-columna" style="height: 35px;padding: 8px;font-size: 12.8px;">
     <a data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle" href="assets/trang-new/thoitrangnam.php" style="font-size: 11px;color: rgb(0,0,0);">
         <strong>THỜI TRANG NAM</strong>
@@ -152,7 +153,7 @@
     </nav>
     <main class="page landing-page">
         <section class="clean-block slider dark" style="padding-bottom: 50px;">
-            <div class="container" style="padding-right: 0px;padding-left: 0px;">
+            <div class="container" style="padding-right: 0px;padding-left: 0px; max-width : 98%">
                 <div class="carousel slide" data-ride="carousel" id="carousel-1">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active"><img class="w-100 d-block" src="<?php echo $data['Img']?>" alt="Slide Image"></div>
@@ -160,9 +161,9 @@
                         <div class="carousel-item"><img class="w-100 d-block" src="assets/img/bia2.jpg?h=df718b1b3bffd314fe3fe308c86df23e" alt="Slide Image"></div>
                     </div>
                     <div>
-                        <!-- Start: Previous --><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>
+                        <!-- Start: Previous <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>-->
                         <!-- End: Previous -->
-                        <!-- Start: Next --><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>
+                        <!-- Start: Next <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>-->
                         <!-- End: Next -->
                     </div>
                     <ol class="carousel-indicators">

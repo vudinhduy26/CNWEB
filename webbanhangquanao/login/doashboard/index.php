@@ -30,7 +30,7 @@ session_start();
                     <li class="nav-item" role="presentation"><a class="nav-link active"
                             href="danhsachsanphamkids.php"><i class="fas fa-table"></i><span>DANH SÁCH
                                 KIDS</span></a></li>
-                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="donhang.php"><i class="fas fa-table"></i><span>Đơn Hàng</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="dangbai.php"><i class="fas fa-exclamation-circle"></i><span>Đăng bài</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="dangbainam.php"><i class="fas fa-exclamation-circle"></i><span>Đăng bài nam</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="suabaivietnam.php"><i class="fas fa-exclamation-circle"></i><span>Sửa bài nam</span></a></li>

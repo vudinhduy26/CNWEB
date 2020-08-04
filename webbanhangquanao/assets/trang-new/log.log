@@ -1263,3 +1263,61 @@ ORDER BY Idsanphamnam desc limit 3]
 ORDER BY Idsanphamkid desc limit 3] 
 30.07.2020 04:35:25 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
 30.07.2020 04:35:25 COUNT=[0] 
+31.07.2020 03:52:16 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+31.07.2020 03:52:16 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+31.07.2020 03:52:16 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+31.07.2020 03:52:16 COUNT=[0] 
+31.07.2020 03:52:19 sql=[SELECT * FROM sanphamnam where Idsanphamnam = '32'] 
+31.07.2020 03:52:19 sql=[SELECT * FROM sanphamnam ORDER BY Idsanphamnam DESC limit 4] 
+31.07.2020 03:58:30 sql=[SELECT * FROM sanphamnam where sale = 'ok'] 
+31.07.2020 03:58:32 sql=[SELECT * FROM sanphamnam where Idsanphamnam = '2'] 
+31.07.2020 03:58:32 sql=[SELECT * FROM sanphamnam ORDER BY Idsanphamnam DESC limit 4] 
+01.08.2020 05:42:56 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+01.08.2020 05:42:56 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+01.08.2020 05:42:56 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+01.08.2020 05:42:56 COUNT=[0] 
+01.08.2020 05:46:55 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+01.08.2020 05:46:55 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+01.08.2020 05:46:55 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+01.08.2020 05:46:55 COUNT=[0] 
+01.08.2020 05:46:56 sql=[SELECT * FROM sanphamnam where sale = 'ok'] 
+01.08.2020 05:50:34 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+01.08.2020 05:50:34 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+01.08.2020 05:50:34 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+01.08.2020 05:50:34 COUNT=[0] 
+01.08.2020 05:50:35 sql=[SELECT * FROM sanphamnam where sale = 'ok'] 
+01.08.2020 06:24:34 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+01.08.2020 06:24:34 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+01.08.2020 06:24:34 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+01.08.2020 06:24:34 COUNT=[0] 
+01.08.2020 06:24:38 sql=[SELECT * FROM sanphamnam where sale = 'ok'] 
+01.08.2020 06:24:41 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+01.08.2020 06:24:41 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+01.08.2020 06:24:41 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+01.08.2020 06:24:41 COUNT=[0] 
+01.08.2020 06:24:43 sql=[SELECT * FROM sanphamnam where Idsanphamnam = '40'] 
+01.08.2020 06:24:43 sql=[SELECT * FROM sanphamnam ORDER BY Idsanphamnam DESC limit 4] 
+01.08.2020 06:25:05 <!-- sql=[insert into donhang (Tensanpham,Soluong,Tennguoimua,Sodt,Diachi) values (n'ÁO PHÔNG NAM APHCTK035',n'3',n'Duy',n'0368817989',n'Hà Nội')] --> 
+01.08.2020 06:25:05 sql=[SELECT * FROM sanphamnam ORDER BY Idsanphamnam DESC limit 4] 
+04.08.2020 05:56:35 sql=[SELECT * From sanphamnam where Idsanphamnam > 0 
+ORDER BY Idsanphamnam desc limit 3] 
+04.08.2020 05:56:35 sql=[SELECT * FROM sanphamkids where Idsanphamkids > 0
+ORDER BY Idsanphamkid desc limit 3] 
+04.08.2020 05:56:35 Khong the select duoc,ERROR=[Unknown column 'Idsanphamkids' in 'where clause'] 
+04.08.2020 05:56:35 COUNT=[0] 
+04.08.2020 05:56:36 sql=[SELECT * FROM sanphamnam where Idsanphamnam = '32'] 
+04.08.2020 05:56:36 sql=[SELECT * FROM sanphamnam ORDER BY Idsanphamnam DESC limit 4] 
+04.08.2020 05:56:52 sql=[SELECT * FROM sanphamkids where Idsanphamkid = '1'] 
+04.08.2020 05:56:52 sql=[SELECT * FROM sanphamkids ORDER BY Idsanphamkid DESC limit 4] 

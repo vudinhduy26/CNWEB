@@ -21,7 +21,7 @@ $data = select_list($sql);
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="height: 100px;">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="height: 90px;">
         <div class="container"><a class="navbar-brand logo" href="#" style="font-size: 20px;"><img
                     style="width: 50px;height: 30px;"
                     src="assets/img/admin-ajax-1.png?h=d4f6b23781af20d7538512652bd61348"></a><button

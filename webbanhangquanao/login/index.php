@@ -79,11 +79,10 @@ session_start();
                      password:$("#pass").val()
                  },
                  success:function(data){
-                     if (data != 1) {
-                        alert('Tài khoản hoặc mật khẩu của bạn không chính xác !!!');
-
+                     if (data == 1) {
+                        window.location = 'doashboard/';
                      } else {
-                        window.location = 'doashboard';
+                        alert('Tài khoản hoặc mật khẩu của bạn không chính xác !!!');
                      }
                  }
              });
